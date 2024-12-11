@@ -1,0 +1,100 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(6, 6, 50);
+  height: 100vh;
+  color: white;
+  font-family: 'Numito Sans', sans serif;
+}
+.container{
+  background-color: rgba(255, 255, 255, 0);
+  width: 1140;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 24px;
+  font-weight: bolder;
+  color: rgb(0, 166,255);
+}
+.nav-el{
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+.btn{
+  background-color: rgb(0, 166, 255);
+  border: none;
+  padding: 8px 32px 8px 32px;
+  border-radius: 6px;
+}
+.hero{
+  width: 80%;
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.main{
+  font-size: 56px;
+  margin-top: 100px;
+  text-align: center;
+}
+.hold-same{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(5, 5, 5);
+  flex-direction: row;
+margin: 10px;
+}
+.same{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  border-radius: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}.p-center{
+  text-align: center;
+}
+.btn-p{
+  margin-top: 40px;
+  padding: 16px 64px 16px 64px;
+}
+.section-1{
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 128px; 
+  align-items: center;
+  justify-content: center;
+}
+.img{
+  width: 50%;
+  border-radius: 12px;
+}
+.right{
+ width: 50%;
+ height: auto;
+ padding: 24px; 
+}

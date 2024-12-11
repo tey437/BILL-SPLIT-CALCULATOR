@@ -1,0 +1,107 @@
+
+
+body {
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+ }
+
+ .card {
+  width: 800px;
+  display: inline-flex;
+  border-radius: 12px;
+  align-items: center;
+ background-color: hsl(30, 38%, 92%);
+ position: relative;
+ top: 120px;
+  left: 60px;
+  flex-direction: row;
+  margin-left: 70px;
+}
+
+.right {
+  width: 50%;
+  letter-spacing: 2px;
+color: grey;
+position: relative;
+top: 8px;
+font-size: 1px;
+}
+
+.price {
+  color:hsl(212, 21%, 14%) ;
+}
+
+
+.container img {
+  width: 250px;
+  border-radius: 5px;
+  position: relative;
+  left: 272.5px;
+  border-right: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: auto;
+}
+.ray {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  width: 250px;
+  height: 375px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+position: relative;
+top: -2px;
+margin-left: 274px;
+}
+.price {
+font-size:36px;
+color: green;
+font-size: 24px;
+}
+
+button {
+ text-align: center;
+border: none;
+height: 30px;
+background-color: rgb(81,119,81);
+font-size: 12px;
+margin-top: 60px;
+align-items: center;
+justify-content: center;
+display: flex;
+color: white;
+border-radius: 5px;
+width: 190px;
+}
+.pic{
+  width: 12px;
+}
+
+  .pic {
+    font-size: 8px;
+    color: grey;
+  position: relative;
+  left: -8px;
+  }
+
+  span {
+    align-items: center;
+  }
+p {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+h1 {
+font-size: 24px;
+}
+ .left {
+  position: relative;
+  left: 18px;
+  top: 12px;
+
+ }
+ .but {
+  position: relative;
+  top: 10px;
+  left: 18px;
+ }

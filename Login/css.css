@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  display: flex;
+ align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.img{
+  width: 120px;
+  margin-top: 40px;
+  border-radius: 36px;
+}
+h{
+  font-weight: bold;
+  font-size: 24px;
+}
+.sign{
+  border-radius: 36px;
+  height: 39px;
+  width: 300px;
+  background-color: white;
+  font-size: 10px;
+  border: 2px  solid rgb(207, 201, 201);
+  font-weight: lighter;
+}
+.btn{
+  border-radius: 36px;
+  height: 34px;
+  width: 300px;
+  background-color: white;
+  font-size: 10px;
+  border: 2px  solid rgb(207, 201, 201);
+}
+.log{
+  border-radius: 36px;
+  height: 39px;
+  width: 300px;
+  background-color: white;
+  font-size: 10px;
+  border: none;
+  background-color: #FBBC05;
+  color: white;
+}
+p{
+  font-size: 18px;
+}

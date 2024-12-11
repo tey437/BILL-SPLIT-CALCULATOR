@@ -1,0 +1,39 @@
+
+body {
+  background-color: rgba(128, 128, 128, 0.096);
+}
+.container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn-signup {
+  background-color: rgb(31, 214, 31);
+  border-color: green;
+}
+.btn-signup:hover {
+  background-color: green;
+  border-color: green;
+}
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.sub{
+  margin-left: 1px;
+  padding: 7px 105px;
+  background-color: blue;
+  border:2px blue;
+  color: white;
+}
+.but{
+  padding: 6px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.534);
+margin-bottom: 6px;
+}
